@@ -1,6 +1,3 @@
-clear
-echo Do you want to setup PocketMine?
-read -p "Press any key to continue.."
 mkdir pocketmine
 cd pocketmine
 clear
