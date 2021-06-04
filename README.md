@@ -1,5 +1,5 @@
 # Bedrock Server Manager
-Server Manager for MCPE available for Linux
+Server Manager for MCPE
 
 # Installation for Linux (Tested on Ubuntu)
 1. Download latest install.sh from [releases](https://github.com/TheDarknessToma/bedrock-server-manager/releases)
