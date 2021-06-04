@@ -6,7 +6,8 @@ Server Manager for MCPE available for Linux
 [Download latest install.sh here](https://github.com/TheDarknessToma/bedrock-server-manager/releases/latest/download/install.sh)
 
 2. Open terminal in folder, where you have install.sh
-3. Type in terminal ```shell
+3. Type in terminal:
+ ```shell
 ./install.sh
 ```
 4. Install and you have done!
