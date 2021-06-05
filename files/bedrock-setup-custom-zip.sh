@@ -5,6 +5,7 @@ mkdir bedrock
 cp bedrock-server.zip bedrock
 cd bedrock
 unzip bedrock-server.zip
+rm bedrock-server.zip
 chmod +x bedrock_server
 cd ..
 echo cd bedrock > run-server.sh
