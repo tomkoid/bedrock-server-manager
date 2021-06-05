@@ -1,6 +1,4 @@
-echo Do you want to really uninstall this?
-read -p "Press any key to continue.."
-echo LAST WARNING: All data will be deleted!
+echo WARNING: All data will be deleted!
 read -p "Press any key to continue.."
 clear
 rm -r Bedrock
