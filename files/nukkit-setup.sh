@@ -1,6 +1,7 @@
 clear
 mkdir nukkit
 cd nukkit
+echo Getting Nukkit..
 wget https://ci.opencollab.dev/job/NukkitX/job/Nukkit/job/master/lastSuccessfulBuild/artifact/target/nukkit-1.0-SNAPSHOT.jar -q
 cd ..
 echo java -jar nukkit-1.0-SNAPSHOT.jar >> run-server.sh
