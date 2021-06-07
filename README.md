@@ -1,4 +1,5 @@
-# Note: This program does NOT work. Almost everything do not work.
+# Note
+**This program does *NOT* work. Almost everything do *NOT* work.**
 
 # Bedrock Server Manager
 Server Manager for MCPE
