@@ -1,6 +1,6 @@
 cd
 echo Install Bedrock Server Manager? 
-echo Bedrock Server Manager will be installed into default directory
+echo Bedrock Server Manager will be installed into default directory.
 read -p "Press any key to continue.."
 echo Getting uninstall script..
 wget https://raw.githubusercontent.com/TheDarknessToma/bedrock-server-manager/main/files/uninstall.sh -q
