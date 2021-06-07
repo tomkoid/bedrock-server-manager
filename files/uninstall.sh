@@ -7,7 +7,7 @@ rm -r PocketMine
 rm -r Nukkit
 rm installall.sh
 rm uninstall.sh
-echo Modifying aliases..
+echo Deleting aliases..
 unalias bedrock
 unalias pocketmine
 unalias nukkit
