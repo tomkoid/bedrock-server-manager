@@ -13,3 +13,4 @@ unalias pocketmine
 unalias nukkit
 unalias uninstall_bedrock
 echo Done!
+rm install.sh
