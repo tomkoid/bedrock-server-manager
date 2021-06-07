@@ -1,4 +1,5 @@
-echo Install Bedrock Server Manager?
+cd
+echo Install Bedrock Server Manager? (Will be installed into default directory)
 read -p "Press any key to continue.."
 echo Getting uninstall script..
 wget https://raw.githubusercontent.com/TheDarknessToma/bedrock-server-manager/main/files/uninstall.sh -q
@@ -41,8 +42,15 @@ wget https://raw.githubusercontent.com/TheDarknessToma/bedrock-server-manager/ma
 echo Marking installall script as executable..
 chmod +x installall.sh
 echo Creating aliases..
-alias bedrock="cd Bedrock && ./bedrock-setup.sh"
-alias pocketmine="cd PocketMine && ./pocketmine-setup.sh"
-alias nukkit="cd Nukkit && ./nukkit-setup.sh"
+alias bedrock="cd && cd Bedrock && ./bedrock-setup.sh"
+alias pocketmine="cd && cd PocketMine && ./pocketmine-setup.sh"
+alias nukkit="cd && cd Nukkit && ./nukkit-setup.sh"
+alias uninstall_bedrock="cd && ./uninstall.sh"
 clear
 echo Done!
+echo
+echo You can run Bedrock server with "bedrock" command.
+echo You can run PocketMine server with "pocketmine" command.
+echo You can run Nukkit server with "nukkit" command.
+echo
+echo Uninstall with "uninstall_bedrock" command.
