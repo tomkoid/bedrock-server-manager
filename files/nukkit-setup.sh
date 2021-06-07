@@ -7,4 +7,7 @@ cd ..
 echo java -jar nukkit-1.0-SNAPSHOT.jar >> run-server.sh
 chmod +x run-server.sh
 clear
+echo Modifying alias..
+alias nukkit="cd Nukkit && ./run-server.sh"
+clear
 echo Done!
