@@ -40,5 +40,9 @@ echo Getting installall script..
 wget https://raw.githubusercontent.com/TheDarknessToma/bedrock-server-manager/main/files/installall.sh -q
 echo Marking installall script as executable..
 chmod +x installall.sh
+echo Creating aliases..
+alias bedrock="cd Bedrock && ./bedrock-setup.sh"
+alias pocketmine="cd PocketMine && ./pocketmine-setup.sh"
+alias nukkit="cd Nukkit && ./nukkit-setup.sh"
 clear
 echo Done!
