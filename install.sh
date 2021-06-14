@@ -43,10 +43,10 @@ wget https://raw.githubusercontent.com/TheDarknessToma/bedrock-server-manager/ma
 echo Marking installall script as executable..
 chmod +x installall.sh
 echo Creating aliases..
-alias bedrock='cd && cd Bedrock && ./bedrock-setup.sh'
-alias pocketmine='cd && cd PocketMine && ./pocketmine-setup.sh'
-alias nukkit='cd && cd Nukkit && ./nukkit-setup.sh'
-alias uninstall_bedrock='cd && ./uninstall.sh'
+alias bedrock='cd && cd Bedrock && source bedrock-setup.sh'
+alias pocketmine='cd && cd PocketMine && source pocketmine-setup.sh'
+alias nukkit='cd && cd Nukkit && source nukkit-setup.sh'
+alias uninstall_bedrock='cd && source uninstall.sh'
 clear
 echo Done!
 echo
