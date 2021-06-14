@@ -10,6 +10,8 @@ echo ./bedrock_server >> run-server.sh
 chmod +x run-server.sh
 clear
 echo Modifying alias..
-alias bedrock="cd && cd Bedrock && ./run-server.sh"
+echo alias bedrock="cd && cd Bedrock && ./run-server.sh" > b.sh
+source b.sh
+rm b.sh
 clear
 echo Done!
