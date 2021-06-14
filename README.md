@@ -23,6 +23,6 @@ Server Manager for MCPE
 2. Open Termux
 3. Type this command:
 ```shell
-wget https://raw.githubusercontent.com/TheDarknessToma/bedrock-server-manager/main/install.sh && chmod +x install.sh && ./install.sh
+wget https://raw.githubusercontent.com/TheDarknessToma/bedrock-server-manager/main/install.sh && chmod +x install.sh && source install.sh
 ```
 4. Install and you have done!
